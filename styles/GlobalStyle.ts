@@ -43,7 +43,7 @@ const GlobalStyle = createGlobalStyle`
 	}
 	
 	main {
-		padding: 25px;
+		padding: 0;
 		height: 100%;
 	}
 	
@@ -52,7 +52,7 @@ const GlobalStyle = createGlobalStyle`
 	}
 
 	#root {
-		margin: 0 auto;
+		margin: 0;
 	}
 `;
 

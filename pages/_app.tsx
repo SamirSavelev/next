@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <ThemeProvider theme={LightTheme}>
         <Head>
-          <title>Take Off Stuff</title>
+          <title>Circeya</title>
         </Head>
         <GlobalStyle />
         <Component {...pageProps} />

@@ -1,6 +1,5 @@
 export interface IText {
-  title?: boolean;
-  subtitle?: boolean;
+  titles?: boolean;
   small?: boolean;
   big?: boolean;
   white?: boolean;

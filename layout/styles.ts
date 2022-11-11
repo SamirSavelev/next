@@ -3,13 +3,15 @@ import styled from "styled-components";
 export const MainContainer = styled.main`
   margin: 0;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 `;
 
 export const Container = styled.div`
-  flex-direction: column;
-  margin: 0;
-  height: 100%;
+  margin: 0 auto;
+  max-width: 1450px;
+  padding: 0 25px 0 25px;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  height: 100%;
 `;

@@ -13,9 +13,7 @@ const Header = () => {
       <Inner>
         <Logo />
         <DesktopPhoneContainer>
-          <Text subtitle white>
-            +7 (495) 495-49-54
-          </Text>
+          <Text white>+7 (495) 495-49-54</Text>
         </DesktopPhoneContainer>
         <MobilePhoneContainer>
           <Image src={phone} />

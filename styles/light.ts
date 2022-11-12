@@ -8,7 +8,7 @@ const theme: DefaultTheme = {
   blackGradient: "linear-gradient(0deg, #464341 0%, #010101 100%)",
   blue: "#3258FB",
   accent: "#3258FB",
-  black: "#333333",
+  black: "#141414",
   white: "#FFFFFF",
   whiteOpacity: "#FFFFFF44",
   whiteOpacity75: "#FFFFFFaa",

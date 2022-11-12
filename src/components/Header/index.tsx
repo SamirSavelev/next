@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Logo from "../Logo";
-import Text from "../Text";
+import Text from "../../ui-kit/Text";
 import { HeaderStyles } from "./styles";
 import phone from "../../../public/phone.svg";
 

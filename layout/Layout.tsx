@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import Footer from "../src/components/Footer";
 import Header from "../src/components/Header";
 import { LayoutProps } from "./Layout.props";
 import { Container, MainContainer } from "./styles";
@@ -8,6 +9,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
     <MainContainer>
       <Header />
       <Container>{children}</Container>
+      <Footer />
     </MainContainer>
   );
 };

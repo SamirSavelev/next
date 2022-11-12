@@ -1,12 +1,16 @@
-import Text from "../Text";
+import React from "react";
+import { IHeading } from "../../interfaces";
+import Text from "../../ui-kit/Text";
 import { HeadingStyles } from "./styles";
 
 const { Container } = HeadingStyles;
 
-const Heading = () => {
+const Heading: React.FC<IHeading> = ({ title, padding = "0" }) => {
   return (
-    <Container>
-      <Text titles>ut aliquip ex ea commodo consequat</Text>
+    <Container padding={padding}>
+      <Text titles upper>
+        {title}
+      </Text>
     </Container>
   );
 };

@@ -18,6 +18,9 @@ const GlobalStyle = createGlobalStyle`
 		color: inherit;
 	}
 
+	p {
+		margin-bottom: 15px;
+	}
 	html {  
 		@media only screen and (max-width: 900px) {
 			font-size: 70%;
@@ -25,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
 	}
 	
 	iframe {
-		font-family: 'Montserrat', sans-serif !important;
+		font-family: "Manrope", sans-serif;
 	}
 
 	body {
@@ -44,7 +47,6 @@ const GlobalStyle = createGlobalStyle`
 	
 	main {
 		padding: 0;
-		height: 100%;
 	}
 	
 	#__next {

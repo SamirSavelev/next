@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import Footer from "../src/components/Footer";
+import Footer from "../src/ui-kit/Footer";
 import Header from "../src/components/Header";
 import { LayoutProps } from "./Layout.props";
 import { Container, MainContainer } from "./styles";

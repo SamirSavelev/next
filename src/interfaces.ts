@@ -22,3 +22,7 @@ export interface IHeading {
   title: string;
   padding?: string;
 }
+
+export interface ISlider {
+  content: Array<StaticImageData>;
+}

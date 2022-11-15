@@ -22,6 +22,7 @@ const GlobalStyle = createGlobalStyle`
 		margin-bottom: 15px;
 	}
 	html {  
+		scroll-snap-type: y mandatory;
 		@media only screen and (max-width: 900px) {
 			font-size: 70%;
 		}

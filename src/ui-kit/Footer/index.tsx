@@ -1,4 +1,4 @@
-import Text from "../../ui-kit/Text";
+import Text from "../Text";
 import { FooterStyles } from "./styles";
 
 const { Container } = FooterStyles;
